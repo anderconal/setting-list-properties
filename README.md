@@ -1,5 +1,5 @@
 # setting-list-properties
-Learning how to set list (or set parameter arguments, or properties or constructor arguments) in Java Spring
+Learning how to set list (or set parameter arguments, properties or constructor arguments) in Java Spring
 
 I´ve used:
 
