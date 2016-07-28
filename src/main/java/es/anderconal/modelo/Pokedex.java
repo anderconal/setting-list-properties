@@ -16,8 +16,8 @@ public class Pokedex {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		
-		sb.append(nombre);
-		sb.append(" contiene:\n");
+		sb.append("La Pokédex de " + nombre);
+		sb.append(" ha registrado a:\n");
 		
 		for (String pokemon : pokemon) {
 			sb.append(pokemon);

@@ -22,6 +22,14 @@
 				<value>Squirtle</value>
 				<value>Bulbasaur</value>
 			</list>
+			<!-- Another way, with set instead of list 
+			<set>
+				<value>Pikachu</value>
+				<value>Charmander</value>
+				<value>Squirtle</value>
+				<value>Bulbasaur</value>
+			</set>
+			-->
 		</constructor-arg>
 		
 	</bean>
