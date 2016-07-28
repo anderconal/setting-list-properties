@@ -4,10 +4,17 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="pokedex" class="es.anderconal.modelo.Pokedex">
-		<constructor-arg value="Ander Conal" type="String" name="nombre"
+	<bean 
+		id="pokedex" 
+		class="es.anderconal.modelo.Pokedex">
+		
+		<constructor-arg 
+			value="Ander Conal" 
+			type="String" 
+			name="nombre"
 			index="0">
 		</constructor-arg>
+		
 		<constructor-arg>
 			<list>
 				<value>Pikachu</value>
@@ -16,5 +23,6 @@
 				<value>Bulbasaur</value>
 			</list>
 		</constructor-arg>
+		
 	</bean>
 </beans>
